@@ -1,0 +1,111 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #16181a;
+}
+
+header {
+    background-color: #141414;
+    padding-block-end: 10px; /* Ajuste o valor conforme necessário */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+    margin-top: 12px;
+}
+
+.redes-sociais a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff; /* Cor dos ícones */
+}
+
+/* Estilo dos ícones */
+.redes-sociais svg {
+    width: 23px;
+    height: 23px;
+    fill: currentColor;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Efeito de hover nos ícones */
+.redes-sociais a:hover svg {
+    transform: scale(1.2);
+}
+
+
+.showroom{
+    color: #ffffffe5;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    
+}
+
+footer {
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.car {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.car-description {
+    padding: 15px;
+}
+
+.car-description h3 {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+    .car {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+.car {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    cursor: pointer; /* Adiciona o cursor de ponteiro ao passar o mouse sobre as imagens */
+}
+
+.car img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
