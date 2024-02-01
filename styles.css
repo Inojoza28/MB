@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #16181a;
+    background-color: rgba(255, 255, 255, 0.836);
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 .redes-sociais {
     display: flex;
     align-items: center;
-    margin-right: 18px;
+    margin-right: 24px;
     margin-top: 12px;
 }
 
@@ -43,7 +43,7 @@ header {
 
 
 .showroom{
-    color: #ffffffe5;
+    color: #333;
     text-align: center;
     margin-top: 40px;
     font-size: 24px;
@@ -67,6 +67,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 .car img {
@@ -75,7 +76,7 @@ footer {
 }
 
 .car-description {
-    padding: 15px;
+    padding: 20px;
 }
 
 .car-description h3 {
@@ -90,14 +91,14 @@ footer {
 
 
 h3{
-    color: #cccccce7;
+    color: #4b4b4be7;
 }
 
 
 
 
 .car {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -110,4 +111,9 @@ h3{
     height: auto;
     border-radius: 5px;
 }
+
+
+
+
+
 
